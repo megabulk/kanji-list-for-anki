@@ -3,14 +3,14 @@ This Javascript will parse a string containing kanji and return a list of them w
 
 ## Usage
 
-Place the `_kanjidict.js` file into your `collection.media` folder.
+1. Place the `_kanjidict.js` file into your `collection.media` folder.
 
-Put this code in your Anki card where you want the kanji list to appear:
+2. Put this code in your Anki card where you want the kanji list to appear:
 ```
 <div id="kanjilist"></div>
 ```
 
-And then put this code at the bottom of your card.
+3. And then put this code at the bottom of your card.
 Where I've got `kanji:Sentence`, make sure this references the field where your Japanese sentence is.
 ```
 <script>
