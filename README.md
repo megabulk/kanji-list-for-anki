@@ -11,6 +11,7 @@ Put this code in your Anki card where you want the kanji list to appear:
 ```
 
 And then put this code at the bottom of your card.
+Where I've got `kanji:Sentence`, make sure this references the field where your Japanese sentence is.
 ```
 <script>
 	function loadScript(src, callback) {
